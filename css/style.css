@@ -61,7 +61,7 @@
 .link_wrapper>li {
    list-style: none;
    display: flex;
-   gap: 20px;
+   gap: 30px;
 
 }
 
@@ -98,7 +98,7 @@
    font-family: "Roboto", sans-serif;
    padding: 10px;
    font-size: 15px;
-   width: 300px;
+   width: 200px;
    height: 30px;
 
 }
@@ -118,6 +118,19 @@
    .search_wrapper{
       display: none;
    }
+
+   .link_wrapper>li {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 60px;
+   
+   }
+   
+}
+
+
+@media(max-width:768px){
+
    .link_wrapper{
       display:none;
    }
@@ -125,7 +138,7 @@
       
       display: none;
    }
-
+   
    .option_img{
       display: block;
    }
@@ -395,3 +408,7 @@
 
 
 /* product end  */
+
+
+
+

@@ -533,11 +533,100 @@
       height: auto;
    }
 
+
+
+
 }
 
 
 
 /* show cart end  */
+
+
+/* chekout start  */
+
+.checkout_parent{
+   width: 100%;
+   height: auto;
+   margin: 20px 0px;
+   padding: 10px 0px;
+}
+
+.checkout_wrapper{
+   width: 1200px;
+   margin: auto;
+}
+
+
+.checkout_element{
+   width: 100%;
+   height: auto;
+}
+
+.checkout_nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 10px;
+}
+
+.chekout_nav h1{
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 25px;
+   letter-spacing: 0.5px;
+   margin: 10px 0px;
+}
+
+.check_icon_group{
+   display: flex;
+   gap: 20px;
+}
+
+.tp_wrapper{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.table_parent{
+   width: 60%;
+   height: auto;
+   padding: 10px 20px;
+}
+
+.table_parent > h2{
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 20px;
+   letter-spacing: 0.5px;
+   padding: 10px 0px;
+   margin: 10px 0px;
+
+}
+
+.product_img{
+   width:100px;
+   height:100px;
+}
+.product_img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+
+.payment_parent{
+   width: 40%;
+}
+
+
+
+
+
+
+/* checkout end  */
 
 
 

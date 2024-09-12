@@ -129,7 +129,6 @@
 @media(max-width:768px){
 
    .link_wrapper>li {
-      display: flex;
       flex-direction: column;
       left: 0;
       margin: 17px 0px;

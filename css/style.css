@@ -548,7 +548,7 @@
 .checkout_parent{
    width: 100%;
    height: auto;
-   margin: 20px 0px;
+   margin: 10px 0px;
    padding: 10px 0px;
 }
 
@@ -566,12 +566,12 @@
 .checkout_nav{
    display: flex;
    justify-content: space-between;
-   padding: 20px 10px;
+   padding: 10px 10px;
 }
 
-.chekout_nav h1{
+.checkout_nav h1{
    font-family: "Poppins", sans-serif;
-   font-weight: normal;
+   font-weight: 600;
    font-size: 25px;
    letter-spacing: 0.5px;
    margin: 10px 0px;
@@ -606,14 +606,100 @@
 
 }
 
+.table_parent  table tr  th{
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 17px;
+   padding: 0px 10px;
+
+}
+
+.table_parent  table tr  td{
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 17px;
+   padding: 0px 10px;
+   
+
+
+}
+.table_parent table{
+   width: 100%;
+   height: auto;
+}
+
+
+.table_parent table tr:first-child{
+   /* background-color: red; */
+   padding: 10px 0px;
+}
+
+
+.table_parent  table tr  th:first-child{
+   float: left;
+}
+
+.table_parent  table tr  td:first-child{
+   display: flex;
+
+   
+}
+.img_info{
+   margin: 20px 10px;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.img_info > h4{
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 15px;
+   font-weight: 600;
+
+}
+
+.img_info > p{
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 12px;
+   font-weight: 300;
+}
+
+
+
+
+
+
+
+.table_parent  table tr  td input{
+   width: 40px;
+   height: 30px;
+   padding: 2px;
+}
+
+
+
+
+
 .product_img{
-   width:100px;
-   height:100px;
+   width:80px;
+   height:80px;
+   margin: 10px  0px;
 }
 .product_img img{
    width: 100%;
    height: 100%;
    object-fit: cover;
+   border-radius: 10px;
+}
+
+.table_parent > p{
+   float: right;
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 17px;
+   padding: 0px 10px;
 }
 
 
@@ -653,6 +739,7 @@
    border-radius: 10px;
    margin: 10px 0px;
    border: none;
+   cursor: pointer;
 }
 
 .payment_line{
@@ -681,7 +768,7 @@
 .payment_parent > button{
    width: 100%;
    height: 35px;
-   background-color: blue;
+   background-color: rgb(35, 35, 254);
    color: white;
    font-family: "Poppins", sans-serif;
    font-weight: 400;
@@ -689,6 +776,7 @@
    margin: 10px 0px;
    border-radius: 10px;
    border: none;
+   cursor: pointer;
 }
 
 

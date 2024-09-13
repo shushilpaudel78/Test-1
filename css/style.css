@@ -382,7 +382,7 @@
 }
 
 
-.cart a{
+.cart button{
    background-color: #c38cb5;
    color: aliceblue;
    font-family: "Roboto", sans-serif;
@@ -396,7 +396,7 @@
 
 
 }
-.cart a:hover{
+.cart button:hover{
    background-color: green;
 
 
@@ -420,6 +420,7 @@
    color: white;
 }
 
+
 .addtocartline{
    width: 50%;
    height: 3px;
@@ -433,13 +434,16 @@
    font-family: "Roboto", sans-serif;
    font-size: 12px;
    font-weight: 400;
-   text-align: start;
+   text-align: center;
+   margin: 10px 0px;
+
 
 }
 
 
-.addtocart_wrapper > p :last-child{
-   margin: 20px 0px;
+.addtocart_wrapper > p:last-child{
+   padding: 10px 0px;
+   text-align: start;
 
 }
 

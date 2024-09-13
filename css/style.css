@@ -311,6 +311,12 @@
    margin: auto;
 }
 
+.ca_parent{
+   width: 100%;
+   height: auto;
+   display: flex;
+}
+
 .product_element_wrapper{
    width: 100%;
    height: auto;
@@ -328,7 +334,7 @@
 
 
 .cart_wrapper_group{
-   width: 100%;
+   width: 70%;
    height: auto;
    display: flex;
    flex-direction: row;
@@ -337,7 +343,7 @@
 }
 
 .cart{
-   width: 20%;
+   width: 25%;
    height: auto;
    display: flex;
    flex-direction: column;
@@ -396,11 +402,63 @@
 
 }
 
+.addtocart_wrapper{
+   width: 30%;
+   padding-left: 20px;
+   margin-top: -120px;
+
+}
+
+.addtocart_wrapper h1{
+   width: 100%;
+   padding: 10px 10px;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   background-color: rgb(244, 184, 3);
+   color: white;
+}
+
+.addtocartline{
+   width: 50%;
+   height: 3px;
+   background-color: rgb(244, 184, 3) ;
+}
+
+
+.addtocart_wrapper > p{
+   padding: 10px 10px;
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   text-align: start;
+
+}
+
+
+.addtocart_wrapper > p :last-child{
+   margin: 20px 0px;
+
+}
+
 
 @media(max-width:992px){
    .product_parent{
       margin: 10px 0px;
    }
+   .cart_wrapper_group{
+      width: 100%;
+   }
+
+
+   .addtocart_wrapper{
+      display: none;
+   }
+
+
+
 
 
    .cart{
@@ -668,14 +726,27 @@
 
 
 
-
-
-
-
 .table_parent  table tr  td input{
    width: 40px;
    height: 30px;
    padding: 2px;
+   border: none;
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+   font-size: 12px;
+   margin: 0px 10px;
+
+
+}
+
+
+td >.deletebutton{
+   padding: 5px 10px;
+   background-color: red;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+
 }
 
 

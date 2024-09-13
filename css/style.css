@@ -652,6 +652,7 @@
    font-size: 14px;
    border-radius: 10px;
    margin: 10px 0px;
+   border: none;
 }
 
 .payment_line{

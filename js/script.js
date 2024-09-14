@@ -8,3 +8,5 @@ toggleButton.addEventListener('click', () => {
         nav.style.display = 'none';  // Hide the nav
     }
 });
+
+

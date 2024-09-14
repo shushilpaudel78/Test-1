@@ -43,7 +43,7 @@
                     <li>
                         <ul><a href="index.html"> <i class="fa-solid fa-house"></i> Home </a></ul>
                         <ul><a href="product.html">product</a></ul>
-                        <ul><i class="fa-solid fa-cart-shopping"><span class="cart-count">0</span></i></ul>
+                        <ul><i class="fa-solid fa-cart-shopping"></i> <span id="cartCount"></span></ul>
                         <!-- <ul><a href="">About</a></ul> -->
                         <!-- <ul><a href="">FAQ</a></ul> -->
 
@@ -150,7 +150,7 @@
 
                             </table>
 
-                            <button class="add-to-cart-btn" data-name="bulb" data-price="1000">Add to cart</button>
+                            <button class="add-to-cart-btn" data-name="bulb" data-price="1000" onclick="addtocart()">Add to cart</button>
 
 
 
@@ -173,7 +173,7 @@
 
                             </table>
 
-                            <button class="add-to-cart-btn" data-name="bulb" data-price="1000">Add to cart</button>
+                            <button class="add-to-cart-btn" data-name="bulb" data-price="1000" onclick="addtocart()">Add to cart</button>
 
 
 
@@ -197,7 +197,7 @@
                             </table>
 
 
-                            <button class="add-to-cart-btn" data-name="bulb" data-price="1000">Add to cart</button>
+                            <button class="add-to-cart-btn" data-name="bulb" data-price="1000" onclick="addtocart()">Add to cart</button>
 
 
 
@@ -237,6 +237,8 @@
                     <div class="addtocart_wrapper">
                         <h1>My Cart</h1>
 
+
+                        <div class="addtocart_img"><img src="img/heoimg.jpg" alt="add image"></div>
 
 
                         <p>total number of cart : <span class="cartname"></span></p>

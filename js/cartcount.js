@@ -1,6 +1,9 @@
-let cartCount = 0;
 
+let count = 0;
+
+// Function to increment the number
 function addtocart() {
-    cartCount++; // Increment the cart count
-    document.getElementById("cart-count").textContent = cartCount; // Update the cart icon number
+    count++; // Increment the number
+    document.getElementById('cartCount').innerText = count; // Update the displayed number
+
 }

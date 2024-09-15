@@ -337,11 +337,7 @@
    margin: auto;
 }
 
-.ca_parent{
-   width: 100%;
-   height: auto;
-   display: flex;
-}
+
 
 .product_element_wrapper{
    width: 100%;
@@ -360,7 +356,7 @@
 
 
 .cart_wrapper_group{
-   width: 70%;
+   width: 100%;
    height: auto;
    display: flex;
    flex-direction: row;
